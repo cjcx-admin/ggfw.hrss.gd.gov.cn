@@ -1,0 +1,604 @@
+body {
+    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.index-logo {
+    width: 100%;
+    height: 81px;
+    background: url(../../image/commons/bg.png) no-repeat right #0067aa;
+    position: relative;
+    font-family: "微软雅黑";
+    overflow: hidden;
+}
+
+.index-logo h1 {
+    /* width: 377px; */
+    height: 81px;
+    line-height: 81px;
+    background-image: url(../../image/commons/headbg.png) repeat-x left;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 44px;
+    margin: 0;
+}
+
+.index-leftbox {
+    width: 220px;
+    height: 100%;
+    float: left;
+    padding: 0px 0px 10px 0px;
+    border-right: 1px solid #DDD;
+    background-color: #0181cc;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.index-content {
+    float: right;
+    overflow: visible;
+    /*
+	background:url(/gwyks/resource/image/commons/bg-index-1.jpg) no-repeat;
+	background-position:100% 0;
+	*/
+}
+
+.cur_nav {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
+
+.cur_nav span {
+    padding-left: 17px;
+}
+
+.index-navi {
+    width: 100%;
+    background: #FFF;
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.index-box {
+    clear: left;
+    width: 90%;
+    margin: 15px auto;
+    margin-bottom: 0;
+    display: bolck;
+}
+
+.index_bmlc {
+    width: 163px;
+    height: 36px;
+    line-height: 34px;
+    background: url(../../image/commons/button_reg.png) no-repeat 0 0;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: left;
+    color: #fff
+}
+
+.index_bmlc:hover {
+    width: 163px;
+    height: 36px;
+    line-height: 34px;
+    background: url(../../image/commons/button_reg1.png) no-repeat 0 0;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.index_ksrk {
+    width: 163px;
+    height: 39px;
+    line-height: 39px;
+    background: url(../../image/commons/button_reg.png) no-repeat 0 -43px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.ksrk_box {
+    font-size: 16px;
+    position: absolute;
+    right: 105px;
+    top: 0;
+    width: 102px;
+    height: 44px;
+    text-align: center;
+}
+
+.more_box {
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 102px;
+    height: 44px;
+    text-align: center;
+}
+
+.ksrk_button {
+    width: 88px;
+    height: 31px;
+    line-height: 30px;
+    background: url(../../image/commons/button_drap.png) no-repeat 0 0px;
+    text-aling: center !important;
+    display: block;
+    font-size: 14px;
+}
+
+.index_help {
+    width: 163px;
+    height: 36px;
+    line-height: 34px;
+    background: url(../../image/commons/button_reg.png) no-repeat 0 -86px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.index_help:hover {
+    width: 163px;
+    height: 36px;
+    line-height: 34px;
+    background: url(../../image/commons/button_reg1.png) no-repeat 0 -86px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.index-navi a>font,
+.index-navi>div>font {
+    font-size: 16px;
+    text-aling: left !important;
+    color: #fff;
+    padding-left: 43px;
+}
+
+.icon-color {
+    color: rgb(255, 140, 60);
+}
+
+.loginPannel {
+    width: 100%;
+}
+
+a {
+    font-size: 12px;
+}
+
+table.lp {
+    width: 100%;
+}
+
+table.lp tr td:first-child {
+    text-align: right;
+}
+
+.td-tl {
+    width: 25%;
+    color: #888;
+}
+
+table.lp td {
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+    height: 48px;
+}
+
+table.lp td>input {
+    width: 173px;
+    height: 34px;
+    line-height: 34px;
+    border: 0;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding-left: 3px;
+    -moz-border-radius: 4px;
+    /* Gecko browsers */
+    -webkit-border-radius: 4px;
+    /* Webkit browsers */
+    border-radius: 4px;
+    /* W3C syntax */
+    *background: url(../../image/commons/input_bg.png) no-repeat 0 0;
+    background: url(../../image/commons/input_bg.png) no-repeat 0 0\0;
+    border: 0px \0;
+}
+
+.notice-title {
+    height: 20px;
+    color: #087cc6;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    /* 	border-bottom: 1px solid #f0f0f0; */
+    position: relative;
+}
+
+.title6_line {
+    width: 6em;
+    /* 	border-bottom: 3px solid #087cc6; */
+    display: inline-block;
+}
+
+.notice-list {
+    line-height: 2.4em;
+    margin-top: 10px;
+}
+
+.notice-list ul {
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+}
+
+.notice-list ul li a:hover {
+    color: #169ada;
+}
+
+.notice-list li {
+    list-style: none;
+    background: url(../../image/commons/dot_newslist.png) no-repeat left;
+    margin: 0 10px 0 10px;
+    padding-left: 20px;
+    border-bottom: 1px dotted #eeeeee;
+}
+
+.notice-list li>a {
+    font-size: 14px;
+    color: #3C3C3C;
+}
+
+.notice-list li>span {
+    float: right;
+}
+
+.index-leftbox ul {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.index-leftbox a:link {
+    text-decoration: none;
+}
+
+.index-leftbox a:visited {
+    text-decoration: none;
+}
+
+.index-leftbox a:hover {
+    text-decoration: none;
+}
+
+.index-leftbox a:active {
+    text-decoration: none;
+}
+
+/*鐧诲綍鍚庝富椤甸潰鏍峰紡*/
+
+.min_menu {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.min_menu a {
+    color: #fdfdfd;
+}
+
+.min_menu a:hover {
+    color: #29fada;
+}
+
+.min_menu div {
+    display: inline-block;
+    margin-left: 2px;
+    maring-right: 2px;
+    color: #fdfdfd锛�
+}
+
+.min_menu div .font {
+    color: #fdfdfd;
+}
+
+.min-icon-color {
+    color: #b0ddf3;
+}
+
+.top_welcom {
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    font-size: 14px;
+}
+
+.index-leftbox ul li {
+    list-style: none;
+    font-family: "微软雅黑"
+}
+
+.index-leftbox ul a li {
+    color: #fff;
+}
+
+.log_button {
+    width: 138px;
+    color: #666;
+    background-color: #5cb85c;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px;
+    height: 43px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -moz-border-radius: 4px;
+    /* Gecko browsers */
+    -webkit-border-radius: 4px;
+    /* Webkit browsers */
+    border-radius: 4px;
+    /* W3C syntax */
+    /* *background: url(../../image/commonstton_login.png) no-repeat 0 0
+		transparent;
+	background: url(../../image/commonstton_login.png) no-repeat 0 0
+		transparent\0; */
+}
+
+.log_button:hover,
+.log_button:focus {
+    background: #449d44;
+    /* 	*background: url(../../image/commonstton_login.png) no-repeat 0 -44px */
+    /* 		transparent; */
+    /* 	background: url(../../image/commonstton_login.png) no-repeat 0 -44px */
+    /* 		transparent\0; */
+}
+
+.register_button {
+    width: 138px;
+    color: #666;
+    background-color: #f0ad4e;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px;
+    height: 43px;
+    padding: 0 40px;
+    margin: 0;
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -moz-border-radius: 4px;
+    /* Gecko browsers */
+    -webkit-border-radius: 4px;
+    /* Webkit browsers */
+    border-radius: 4px;
+    /* W3C syntax */
+}
+
+.register_button:hover,
+.register_button:focus {
+    background-color: #ec971f;
+}
+
+.index-leftbox ul a:hover li,
+.index-leftbox ul a:hover,
+.index-leftbox ul a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list_title {
+    height: 40px;
+    background: #0077bd;
+    color: #fff;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.list_title span {
+    background: url(../../image/commons/dot_list.png) no-repeat 0px 0px;
+}
+
+.list_title span b {
+    padding-left: 35px;
+}
+
+.index-leftbox ul a:hover .menuItem_toAnoucementPage {
+    background: url(../../image/commons/gongg.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toInfoPage {
+    background: url(../../image/commons/grxx.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toJobjPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toSignListQueryPage {
+    background: url(../../image/commons/bkqk.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toSignListRegistrationPage {
+    background: url(../../image/commons/bmb.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toSignListTicketPage {
+    background: url(../../image/commons/zkz.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toScorePage {
+    background: url(../../image/commons/cjcx.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toDetailsPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toYxNoSignJobStaPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toYxMoreSignJobStaPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toTradePage {
+    background: url(../../image/commons/bkqk.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toCheckPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toMJFPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toPayDetailsPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toNoticeSzdPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.index-leftbox ul a:hover .menuItem_toExamAreaConfPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px #0067aa;
+}
+
+.menuItem {
+    width: 220px;
+    height: 43px;
+    line-height: 43px;
+    margin: 0px auto;
+    color: #fff;
+    padding-left: 60px;
+    font-size: 14px;
+    border-bottom: 1px solid #0174b7
+}
+
+.menuItem_toAnoucementPage {
+    background: url(../../image/commons/gongg.png) no-repeat 20px 10px;
+}
+
+.menuItem_toInfoPage {
+    background: url(../../image/commons/grxx.png) no-repeat 20px 10px;
+}
+
+.menuItem_toJobjPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toSignListQueryPage {
+    background: url(../../image/commons/bkqk.png) no-repeat 20px 10px;
+}
+
+.menuItem_toSignListRegistrationPage {
+    background: url(../../image/commons/bmb.png) no-repeat 20px 10px;
+}
+
+.menuItem_toSignListTicketPage {
+    background: url(../../image/commons/zkz.png) no-repeat 20px 10px;
+}
+
+.menuItem_toScorePage {
+    background: url(../../image/commons/cjcx.png) no-repeat 20px 10px;
+}
+
+.menuItem_toNoticeSzdPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toDetailsPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toTradePage {
+    background: url(../../image/commons/bkqk.png) no-repeat 20px 10px;
+}
+
+.menuItem_toCheckPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toYxNoSignJobStaPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toYxMoreSignJobStaPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toYxNoPayJobStaPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toMJFPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toPayDetailsPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.menuItem_toExamAreaConfPage {
+    background: url(../../image/commons/zwxq.png) no-repeat 20px 10px;
+}
+
+.tubiao {
+    width: 216px;
+    background: url(../../image/commons/tu_03.png) no-repeat 0 0;
+    display: block;
+    padding-left: 30px;
+}
+
+.tubiao1 {
+    width: 216px;
+    background: url(../../image/commons/tu_06.png) no-repeat 0 0;
+    display: block;
+    padding-left: 30px;
+}

@@ -1,0 +1,94 @@
+		.modal-mask {
+		    visibility: hidden;
+		    position: absolute;
+		    /* 使用绝对定位或固定定位  */
+		    left: 0px;
+		    top: 0px;
+		    width: 100%;
+		    height: 100%;
+		    text-align: center;
+		    z-index: 1000;
+		    /*background-color: #333;*/
+		    /*opacity: 0.9;*/
+		    /* 背景半透明 */
+		    background-image: url(./bg.png);
+		    background-repeat: repeat;
+		}
+
+		/* 模态框样式 */
+
+		.modal-data {
+		    width: 300px;
+		    height: 200px;
+		    min-width: 150px;
+		    min-height: 100px;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    bottom: 0;
+		    right: 0;
+		    margin: auto;
+		    background-color: #fff;
+		    border-radius: 5px;
+		    padding: 0px 0px;
+		    text-align: center;
+		}
+
+		.modal-data font {
+		    font-size: 14px;
+		}
+
+		.modal-head {
+		    padding: 0px;
+		    margin: 0px;
+		    height: 40px;
+		    border-bottom: 1px solid #E0E0E0;
+		}
+
+		.modal-ct {
+		    padding: 0px 2px 2px 2px;
+		    min-height: 60px;
+		    height: 160px;
+		}
+
+		.modal-ct p {
+		    font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+		    font-size: 14px;
+		    min-width: 140px;
+		    min-height: 40px;
+		    /*width:140px;*/
+		    height: 40px;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    bottom: 0;
+		    right: 0;
+		    margin: auto;
+		}
+
+		.modal-head>table {
+		    padding: 0px !important;
+		    margin: 0px !important;
+		    width: 100%;
+		    height: 100%;
+		}
+
+		.modal-head .title-box {
+		    padding-left: 5px !important;
+		    text-align: left;
+		    width: 80%;
+		}
+
+		.modal-head .close-box {
+		    padding-right: 5px !important;
+		    width: 20%;
+		    text-algin: right;
+		}
+
+		.title-box>font {
+		    font-weight: bold;
+		}
+
+		.modal-head font {
+		    font-size: 18px;
+		}
