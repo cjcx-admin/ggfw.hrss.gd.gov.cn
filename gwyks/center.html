@@ -298,9 +298,9 @@
           <div
             class="datagrid-wrap panel-body panel-body-noheader"
             title=""
-            style="width: 1644px; height: 747px"
+            style="height: 747px"
           >
-            <div class="datagrid-view" style="width: 1642px; height: 714px">
+            <div class="datagrid-view" style="height: 714px">
               <div class="datagrid-view1" style="width: 30px">
                 <div class="datagrid-header" style="width: 30px; height: 34px">
                   <div class="datagrid-header-inner" style="display: block">
@@ -354,10 +354,10 @@
                   ></div>
                 </div>
               </div>
-              <div class="datagrid-view2" style="width: 1612px">
+              <div class="datagrid-view2" style="left: 0">
                 <div
                   class="datagrid-header"
-                  style="width: 1612px; height: 34px"
+                  style="height: 34px"
                 >
                   <div class="datagrid-header-inner" style="display: block">
                     <table
@@ -365,11 +365,21 @@
                       border="0"
                       cellspacing="0"
                       cellpadding="0"
-                      style="height: 34px"
+                      style="height: 34px; width: 100%;"
                     >
                       <tbody>
                         <tr class="datagrid-header-row">
-                          <td field="exam_project_name" class="">
+                          <!-- <td field="exam_project_name" class="">
+                            <div
+                              class="datagrid-cell datagrid-sort datagrid-cell-c2-exam_project_name"
+                              resizable="false"
+                              style="text-align: center"
+                            >
+                              <span>序号</span
+                              ><span class="datagrid-sort-icon"></span>
+                            </div>
+                          </td> -->
+                          <td field="exam_project_name" class="" style="width: 33.3%;">
                             <div
                               class="datagrid-cell datagrid-sort datagrid-cell-c2-exam_project_name"
                               resizable="false"
@@ -379,7 +389,7 @@
                               ><span class="datagrid-sort-icon"></span>
                             </div>
                           </td>
-                          <td field="exam_type">
+                          <td field="exam_type" style="width: 33.3%;">
                             <div
                               class="datagrid-cell datagrid-cell-c2-exam_type"
                               resizable="false"
@@ -389,7 +399,7 @@
                               ><span class="datagrid-sort-icon"></span>
                             </div>
                           </td>
-                          <td field="operition">
+                          <td field="operition" style="width: 33.3%;">
                             <div
                               class="datagrid-cell datagrid-cell-c2-operition"
                               resizable="false"
@@ -407,7 +417,6 @@
                 <div
                   class="datagrid-body"
                   style="
-                    width: 1612px;
                     margin-top: 0px;
                     height: 680px;
                     overflow-x: hidden;
@@ -418,6 +427,7 @@
                     cellspacing="0"
                     cellpadding="0"
                     border="0"
+                    style="width: 100%;"
                   >
                     <tbody>
                       <tr
@@ -426,7 +436,7 @@
                         class="datagrid-row"
                         style="height: 34px"
                       >
-                        <td field="exam_project_name">
+                        <td field="exam_project_name" style="width: 33.3%;">
                           <div
                             style="
                               text-align: center;
@@ -438,7 +448,7 @@
                             广东省2025年考试录用公务员
                           </div>
                         </td>
-                        <td field="exam_type">
+                        <td field="exam_type" style="width: 33.3%;">
                           <div
                             style="
                               text-align: center;
@@ -450,7 +460,7 @@
                             笔试
                           </div>
                         </td>
-                        <td field="operition">
+                        <td field="operition" style="width: 33.3%;">
                           <div
                             style="
                               text-align: center;
@@ -485,14 +495,17 @@
                 .datagrid-cell-rownumber {
                   width: 29px;
                 }
-                .datagrid-cell-c2-exam_project_name {
-                  width: 763px;
+                /* .datagrid-cell-c2-exam_project_name {
+                  width: 30%;
                 }
                 .datagrid-cell-c2-exam_type {
-                  width: 508px;
+                  width: 30%;
                 }
                 .datagrid-cell-c2-operition {
-                  width: 287px;
+                  width: 30%;
+                } */
+                .datagrid-header-inner {
+                  width: 100% !important;
                 }
               </style>
             </div>
@@ -655,7 +668,7 @@
     <div
       class="index-content"
       id="detailShow"
-      style="height: 447px; width: 1698px; display: none"
+      style="height: 447px; display: none"
     >
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta charset="UTF-8" http-equiv="content-type:text/html" />
